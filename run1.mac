@@ -1,0 +1,20 @@
+## Particle type, position, energy...
+/gps/particle gamma
+/gps/pos/centre  0 0 -2  cm
+
+/gps/energy 0.662 MeV
+# power-law energy distr.
+#/gps/ene/type Exp
+#/gps/ene/min 10. MeV
+#/gps/ene/max 40. MeV
+#/gps/ene/ezero  -0.6
+
+#/gps/ang/type iso
+#/gps/ang/mintheta 180. degree
+#/gps/ang/maxtheta 180. degree
+/gps/direction 0 0 1
+
+/process/inactivate Cerenkov
+
+## Number of events to run
+/run/beamOn 1000
